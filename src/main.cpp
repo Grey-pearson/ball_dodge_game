@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "sort.h"
 
-class Screen()
+int main()
 {
     sf::RenderWindow window(sf::VideoMode(1000, 400), "SFML works!");
     // sf::CircleShape shape(100.f);
@@ -20,10 +20,6 @@ class Screen()
         // window.draw(shape);
         window.display();
     }
-};
-
-int main()
-{
 
     return 0;
 }
