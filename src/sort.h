@@ -14,10 +14,10 @@ public:
     int num_of_pillars = 10;
     vector<int> pillars;
 
-    vector<int> set_pillar_height()
-    {
-        pass;
-    }
+    // vector<int> set_pillar_height()
+    // {
+    //     pass;
+    // }
 
     vector<int> scrable_pillars()
     {
