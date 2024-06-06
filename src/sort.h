@@ -1,5 +1,8 @@
 #include <SFML/Graphics.hpp>
-#include <vector>
+#include <algorithm>
+#include <iostream>
+#include <random>
+using namespace std;
 
 // add in time recording method
 // add multiple shorting algorithms
@@ -8,5 +11,22 @@
 class Sort
 {
 public:
-    int num_of_pillars;
+    int num_of_pillars = 10;
+    vector<int> pillars;
+
+    vector<int> set_pillar_height()
+    {
+        pass;
+    }
+
+    vector<int> scrable_pillars()
+    {
+        random_device rd;
+        mt19937 g(rd());
+
+        vector<int> scrabled_pillars = pillars;
+        shuffle(scrabled_pillars.begin(), scrabled_pillars.end(), g);
+        cout << scrable_pillars << endl;
+        return scrabled_pillars;
+    }
 };
