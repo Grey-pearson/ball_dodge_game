@@ -13,6 +13,9 @@ class Sort
 public:
     int num_of_pillars = 10;
     vector<int> pillars;
+    for (int i = 0; i < num_of_pillars; i++)
+    {
+        }
 
     // vector<int> set_pillar_height()
     // {
