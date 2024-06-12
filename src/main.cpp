@@ -30,7 +30,11 @@ int main()
     cin >> num;
     // cout << endl;
     arr_sort.num_of_pillars = num;
-    cout << arr_sort.pillars << endl;
+    // cout << arr_sort.pillars << endl;
+    vector<int> A = {10, 20, 30,
+                     40, 50, 60};
+
+    cout << A << endl;
     vector<int> scrabled_pillars = arr_sort.scrable_pillars();
     // cout << arr_sort.pillars << endl;
     // cout << arr_sort.scrable_pillars() << endl;
