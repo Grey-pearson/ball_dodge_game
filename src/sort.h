@@ -26,7 +26,7 @@ public:
 
         vector<int> scrabled_pillars = pillars;
         shuffle(scrabled_pillars.begin(), scrabled_pillars.end(), g);
-        cout << scrable_pillars << endl;
+        // cout << scrabled_pillars << endl;
         return scrabled_pillars;
     }
 };
