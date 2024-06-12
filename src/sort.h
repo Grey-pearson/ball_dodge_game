@@ -15,7 +15,8 @@ public:
     vector<int> pillars;
     for (int i = 0; i < num_of_pillars; i++)
     {
-        }
+        pillars.insert
+    }
 
     // vector<int> set_pillar_height()
     // {
