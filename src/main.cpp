@@ -1,7 +1,9 @@
 #include <SFML/Graphics.hpp>
 #include "sort.h"
 
-Sort sort;
+#include <iostream>
+using namespace std;
+Arr_sort sort;
 
 int main()
 {
