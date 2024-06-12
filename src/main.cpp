@@ -1,7 +1,8 @@
 #include <SFML/Graphics.hpp>
-#include "sort.h"
-
+#include <algorithm>
 #include <iostream>
+#include <random>
+#include "sort.h"
 using namespace std;
 Sort arr_sort;
 
@@ -25,11 +26,12 @@ int main()
     //     window.display();
     // }
     int num;
-    cout << "how many pillars do you want sorted?";
+    cout << "how many pillars do you want sorted? ";
     cin >> num;
-    cout << endl;
+    // cout << endl;
     arr_sort.num_of_pillars = num;
-    cout << arr_sort.num_of_pillars << endl;
+    cout << arr_sort.pillars << endl;
+    vector<int> scrabled_pillars = arr_sort.scrable_pillars();
     // cout << arr_sort.pillars << endl;
     // cout << arr_sort.scrable_pillars() << endl;
 
