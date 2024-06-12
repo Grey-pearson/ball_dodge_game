@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-Arr_sort arr_sort;
+Sort arr_sort;
 
 int main()
 {
@@ -29,6 +29,7 @@ int main()
     cin >> num;
     cout << endl;
     arr_sort.num_of_pillars = num;
+    cout << arr_sort.num_of_pillars << endl;
 
     return 0;
 }
