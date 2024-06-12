@@ -30,6 +30,8 @@ int main()
     cout << endl;
     arr_sort.num_of_pillars = num;
     cout << arr_sort.num_of_pillars << endl;
+    // cout << arr_sort.pillars << endl;
+    // cout << arr_sort.scrable_pillars() << endl;
 
     return 0;
 }
