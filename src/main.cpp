@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-Arr_sort sort;
+Arr_sort arr_sort;
 
 int main()
 {
@@ -24,9 +24,11 @@ int main()
     //     // window.draw(shape);
     //     window.display();
     // }
-
+    int num;
     cout << "how many pillars do you want sorted?";
-    cin >> sort.num_of_pillars >> endl;
+    cin >> num;
+    cout << endl;
+    arr_sort.num_of_pillars = num;
 
     return 0;
 }
