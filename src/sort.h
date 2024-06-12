@@ -8,7 +8,7 @@ using namespace std;
 // add multiple shorting algorithms
 // figure out how to scrample randomly
 
-class Sort
+class Arr_sort
 {
 public:
     int num_of_pillars = 10;
