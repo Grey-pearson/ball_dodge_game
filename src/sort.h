@@ -12,7 +12,7 @@ class Sort
 {
 public:
     int num_of_pillars = 10;
-    vector<int> pillars;
+    array<int> pillars;
     for (int i = 0; i < num_of_pillars; i++)
     {
         pillars.insert
