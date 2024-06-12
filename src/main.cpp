@@ -36,8 +36,8 @@ int main()
 
     cout << "Output of begin and end: ";
     for (auto i = A.begin(); i != A.end(); ++i)
-        cout << *i << " ";
-    vector<int> scrabled_pillars = arr_sort.scrable_pillars();
+        cout << *i << " " << endl;
+    // vector<int> scrabled_pillars = arr_sort.scrable_pillars();
     // cout << arr_sort.pillars << endl;
     // cout << arr_sort.scrable_pillars() << endl;
 
