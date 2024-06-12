@@ -34,7 +34,9 @@ int main()
     vector<int> A = {10, 20, 30,
                      40, 50, 60};
 
-    cout << A << endl;
+    cout << "Output of begin and end: ";
+    for (auto i = A.begin(); i != A.end(); ++i)
+        cout << *i << " ";
     vector<int> scrabled_pillars = arr_sort.scrable_pillars();
     // cout << arr_sort.pillars << endl;
     // cout << arr_sort.scrable_pillars() << endl;
